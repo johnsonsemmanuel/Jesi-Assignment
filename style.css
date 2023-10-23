@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+img {
+  margin: 20px;
+}
 
 body {
   background-color: white;
@@ -16,15 +19,29 @@ header {
   color: black;
   text-align: center;
   padding: 20px;
+  width: 40%;
+  margin: auto;
 }
 
-img{
-    height: 200px;
-    width: 200px;
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.contactspage {
+  width: 30%;
+  margin: auto;
+  padding: 50px;
+  text-align: center;
+}
+
+#Contact {
+  margin: auto;
+  width: 30%;
 }
 
 nav {
-  margin-top: 20px;
+  /* margin-top: 10px; */
 }
 
 nav ol {
@@ -32,34 +49,54 @@ nav ol {
   text-align: center;
 }
 
-nav ol li{
-    display: inline
-    margin: 10px;
+nav ol {
+  display: inline;
 
+  list-style: none;
 }
-nav ol li a{
-    text-decoration: solid;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+nav ol a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px;
+}
+.profile {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.profileText {
+  margin: 30px;
+}
+
+#Portfolio {
+  width: auto;
+  text-align: center;
 }
 
 section {
-    background-color: white;
+  background-color: white;
 }
 
 .projects {
-    display: flex;
+  display: flex;
 }
 
-.projects{
-    margin: 30px;
-    padding: 20px;
-    border: 1px saddlebrown;
-    border-radius: 5px;
+.projects {
+  margin: 30px;
+  padding: 20px;
+  border: 1px saddlebrown;
+  border-radius: 5px;
 }
 
-.projects{
-    height: 200px;
-    width: 200px;
+.projects {
+  height: 200px;
+  width: 200px;
+}
+
+#Footer {
+  width: auto;
+  text-align: center;
+  background-color: aqua;
 }
